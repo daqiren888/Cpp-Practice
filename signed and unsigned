@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+ 
+/* 
+ * signed and unsigned
+*/
+int main()
+{
+   short int i;           //  
+   short unsigned int j;  //  
+ 
+   j = 50000;
+ 
+   i = j;
+   cout << i << " " << j;
+ 
+   return 0;
+}
