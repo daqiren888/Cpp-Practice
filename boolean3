@@ -1,0 +1,44 @@
+#include <iostream>
+using namespace std;
+ 
+int main()
+{
+   int a = 21;
+   int c ;
+ 
+   c =  a;
+   cout << "Line 1 - =  test，c is = : " <<c<< endl ;
+ 
+   c +=  a;
+   cout << "Line 2 - += test，c is = : " <<c<< endl ;
+ 
+   c -=  a;
+   cout << "Line 3 - -= test，c is = : " <<c<< endl ;
+ 
+   c *=  a;
+   cout << "Line 4 - *= test，c is = : " <<c<< endl ;
+ 
+   c /=  a;
+   cout << "Line 5 - /= test，c is = : " <<c<< endl ;
+ 
+   c  = 200;
+   c %=  a;
+   cout << "Line 6 - %= test，c is = : " <<c<< endl ;
+ 
+   c <<=  2;
+   cout << "Line 7 - <<= test，c is = : " <<c<< endl ;
+ 
+   c >>=  2;
+   cout << "Line 8 - >>= test，c is = : " <<c<< endl ;
+ 
+   c &=  2;
+   cout << "Line 9 - &= test，c is = : " <<c<< endl ;
+ 
+   c ^=  2;
+   cout << "Line 10 - ^= test，c is = : " <<c<< endl ;
+ 
+   c |=  2;
+   cout << "Line 11 - |= test，c is = : " <<c<< endl ;
+ 
+   return 0;
+}
